@@ -1,0 +1,40 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: var(--colorLink);
+  padding: calc(var(--m) * 1) calc(var(--m) * 2);
+  border: 2px solid var(--colorLink);
+  border-radius: calc(var(--m) * 4);
+  cursor: pointer;
+}
+
+.button--light {
+  color: var(--colorLink);
+  background-color: #fff;
+}
+
+.button--wide {
+  width: 100%;
+  text-align: center;
+}
+
+.button--large {
+  font-size: 1.125rem;
+  padding: calc(var(--m) * 1.5) calc(var(--m) * 2);
+}
+
+.button:hover,
+.button:focus {
+  text-decoration: none;
+}
+
+.button:disabled,
+.button--disabled {
+  cursor: default;
+  background-color: var(--colorBgLight);
+  border-color: var(--colorBgLight);
+  color: var(--colorTextSecondary);
+}

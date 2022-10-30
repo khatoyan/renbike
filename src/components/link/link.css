@@ -1,0 +1,19 @@
+a,
+.link {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--colorLink);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+:root {
+  --m: 8px;
+  --colorMain: #222;
+  --colorLink: #366AF3;
+  --colorBorder: #EBEBEB;
+  --colorTextSecondary: #858585;
+  --colorTextWarning: #d97e00;
+  --colorTextError:  #cb3d35;
+  --colorBgLight: #F6F6F6;
+}

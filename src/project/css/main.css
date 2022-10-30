@@ -1,0 +1,30 @@
+@import url(./variables.css);
+@import url(../../components/link/link.css);
+@import url(../../components/button/button.css);
+@import url(../../components/tabs/tabs.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--colorMain);
+  font-family: 'Lab Grotesque', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  overflow-y: scroll;
+}
+
+input,
+textarea,
+select {
+  font-family: 'Lab Grotesque', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: var(--colorTextSecondary);
+}
