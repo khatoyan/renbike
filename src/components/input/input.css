@@ -8,10 +8,7 @@
   background-color: #DCDCDC;
 }
 
-.input-email-error{
-  width: 358px;
-  height: 46px;
-  margin: 20px;
+.input-error{
   border:1px solid red;
 }
 
