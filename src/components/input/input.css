@@ -1,4 +1,21 @@
 .input{
   width: 358px;
   height: 46px;
+  margin: 20px;
+}
+
+.input:focus{
+  background-color: #DCDCDC;
+}
+
+.input-email-error{
+  width: 358px;
+  height: 46px;
+  margin: 20px;
+  border:1px solid red;
+}
+.input-card{
+  margin: 20px;
+  width: 166px;
+  height: 46px;
 }
