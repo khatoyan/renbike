@@ -14,8 +14,15 @@
   margin: 20px;
   border:1px solid red;
 }
+
+
 .input-card{
+
   margin: 20px;
+  width: 166px;
+  height: 46px;
+}
+.input-card-cvc{
   width: 166px;
   height: 46px;
 }

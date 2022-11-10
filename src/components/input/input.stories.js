@@ -9,4 +9,3 @@ export default {
 export const input  = () => inputHTML;
 export const inpCard  = () => inputCard;
 export const inpInvalid = () => inputInvalid;
-t
