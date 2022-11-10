@@ -2,7 +2,7 @@
 @import url(../../components/link/link.css);
 @import url(../../components/button/button.css);
 @import url(../../components/tabs/tabs.css);
-
+@import url(../../components/input/input.css);
 *,
 *::before,
 *::after {

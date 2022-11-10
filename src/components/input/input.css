@@ -1,0 +1,25 @@
+.input{
+  width: 358px;
+  height: 46px;
+  margin: 20px;
+}
+
+.input:focus{
+  background-color: #DCDCDC;
+}
+
+.input-error{
+  border:1px solid red;
+}
+
+
+.input-card{
+
+  margin: 20px;
+  width: 166px;
+  height: 46px;
+}
+.input-card-cvc{
+  width: 166px;
+  height: 46px;
+}
