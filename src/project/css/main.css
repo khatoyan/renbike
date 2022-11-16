@@ -28,3 +28,49 @@ textarea::placeholder,
 select::placeholder {
   color: var(--colorTextSecondary);
 }
+
+
+.start-section, .map-section{
+  color: #222;
+  height: 100vh;
+  max-width: 1900px;
+  min-width: 1200px;
+}
+
+.start-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.start-section__title{
+  max-width: 476px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  margin-bottom: 0px;
+}
+
+.left-button{
+  margin-right: 20px;
+}
+.start-section__text{
+  margin: 32px 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+
+.map-section__block{
+  padding-top: 1px;
+  padding-left: 96px;
+}
+
+.map-section__title{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
