@@ -1,4 +1,4 @@
-.form-container{
+.form-container {
 
   width: 456px;
   height: 488px;
@@ -6,40 +6,41 @@
 
 }
 
-.input-container{
-  margin: 20px 0;
+.input-container {
+  margin: 25px 0;
 }
 
-.input{
-  margin-top: 10px;
+.input {
+  margin-top: 13px;
 }
 
-.form-wrapper{
+
+.form-wrapper {
   width: 360px;
 
 }
 
-.input-card-info{
+.input-card-info {
   display: flex;
   justify-content: space-between;
 }
 
-.button{
+.button {
   width: 100%;
 }
 
-.input-span{
+.input-span {
   font-size: 16px;
   line-height: 22px;
   color: #858585;
-  padding-bottom: 10px;
 }
 
-.reg-password{
+.reg-password {
   margin-bottom: 10px; /* Форма пароля с подсказкой "Минимум 8 символов", для формы регистрации */
 }
 
-.button--unborder{
+.button--unborder {
   border: none;
+  margin-top: 10px;
 }
 
