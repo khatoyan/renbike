@@ -10,6 +10,10 @@
   margin: 25px 0;
 }
 
+.form-button {
+  text-align: center;
+  width: 100%;
+}
 
 .form-wrapper {
   width: 360px;
@@ -19,10 +23,6 @@
 .input-card-info {
   display: flex;
   justify-content: space-between;
-}
-
-.button {
-  width: 100%;
 }
 
 .input-span {

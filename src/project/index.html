@@ -12,11 +12,26 @@
 </head>
 
 <body>
+
+  <header class="header">
+    <section class="header-content">
+      <img src="./img/logo.svg" alt="logo" class="header-logo">
+      <div class="header__button-container">
+        <a href="#" class="button button--small">Войти</a>
+        <button class="button button--middle button--light">Регистрация</button>
+      </div>
+    </section>
+  </header>
+
   <section class="start-section">
     <div class="start-section__block">
       <h1 class="start-section__title">Сервис аренды велосипедов</h1>
       <p class="start-section__text">240 велосипедов в Новосибирске</p>
-      <button class="button left-button">Выбрать велосипед</button> <a href="#map">Пункты проката</a>
+
+      <div class="start-section__button">
+        <button class="button left-button">Выбрать велосипед</button>
+        <a href="#map">Пункты проката</a>
+      </div>
     </div>
 
     <div class="start-section__image-block"><img src="../project/img/bg.png" alt="bike" class="start-section__image"></div>

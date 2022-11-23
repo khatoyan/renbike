@@ -56,9 +56,13 @@ select::placeholder {
   margin-bottom: 0px;
 }
 
+.start-section__button{
+  max-width: 100%;
+}
 .left-button{
   margin-right: 20px;
 }
+
 .start-section__text{
   margin: 32px 0;
   font-size: 18px;
