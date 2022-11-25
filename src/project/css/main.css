@@ -32,15 +32,16 @@ select::placeholder {
   color: var(--colorTextSecondary);
 }
 
-
 .start-section, .map-section{
   color: #222;
-  height: 100vh;
+  height: calc(100vh - var(--headerHeight));
+  margin: 0 auto;
+  padding: 0 96px;
   max-width: 1900px;
-  min-width: 1200px;
 }
 
 .start-section{
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,7 +50,7 @@ select::placeholder {
 
 
 .start-section__title{
-  max-width: 476px;
+
   font-weight: 700;
   font-size: 64px;
   line-height: 76px;
@@ -69,14 +70,8 @@ select::placeholder {
   line-height: 24px;
   font-weight: 400;
 }
-
-
-.map-section__block{
-  padding-top: 1px;
-  padding-left: 96px;
-}
-
 .map-section__title{
+
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
