@@ -1,0 +1,36 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 120px;
+  padding: 0;
+  list-style: none;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+
+.dropdown-element {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 6px 0 4px;
+  padding: 9px 12px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.dropdown-element:hover {
+  background: #F6F6F6;
+  cursor: pointer;
+}
+
+.dropdown-line {
+  width: 104px;
+  border: 1px solid #EBEBEB;
+  margin: 0 8px;
+}
+
+.dropdown-element:last-child  {
+  margin: 4px 0 6px;
+}
+

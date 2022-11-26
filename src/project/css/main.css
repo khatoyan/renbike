@@ -3,6 +3,9 @@
 @import url(../../components/button/button.css);
 @import url(../../components/tabs/tabs.css);
 @import url(../../components/input/input.css);
+@import url(../../components/forms/forms.css);
+@import url(../../components/dropdown/dropdown.css);
+@import url(../../components/header/header.css);
 *,
 *::before,
 *::after {
@@ -29,15 +32,16 @@ select::placeholder {
   color: var(--colorTextSecondary);
 }
 
-
 .start-section, .map-section{
   color: #222;
-  height: 100vh;
+  height: calc(100vh - var(--headerHeight));
+  margin: 0 auto;
+  padding: 0 96px;
   max-width: 1900px;
-  min-width: 1200px;
 }
 
 .start-section{
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,30 +50,28 @@ select::placeholder {
 
 
 .start-section__title{
-  max-width: 476px;
+
   font-weight: 700;
   font-size: 64px;
   line-height: 76px;
   margin-bottom: 0px;
 }
 
+.start-section__button{
+  max-width: 100%;
+}
 .left-button{
   margin-right: 20px;
 }
+
 .start-section__text{
   margin: 32px 0;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
 }
-
-
-.map-section__block{
-  padding-top: 1px;
-  padding-left: 96px;
-}
-
 .map-section__title{
+
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;

@@ -1,25 +1,21 @@
-.input{
-  width: 358px;
+.input {
+  width: 100%;
   height: 46px;
-  margin: 20px;
+  margin-top: 12px;
+  border:  #d6d6d6 solid 2px;
 }
 
-.input:focus{
+
+.input:focus {
   background-color: #DCDCDC;
 }
 
-.input-error{
-  border:1px solid red;
+.input-error {
+  border: 1px solid red;
 }
 
 
-.input-card{
-
-  margin: 20px;
-  width: 166px;
-  height: 46px;
-}
-.input-card-cvc{
+.input-card, .input-card-cvc {
   width: 166px;
   height: 46px;
 }

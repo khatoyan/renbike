@@ -1,0 +1,42 @@
+.form-container {
+
+  width: 456px;
+  height: 488px;
+  margin: 0 auto;
+
+}
+
+.input-container {
+  margin: 25px 0;
+}
+
+.form-button {
+  text-align: center;
+  width: 100%;
+}
+
+.form-wrapper {
+  width: 360px;
+
+}
+
+.input-card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-span {
+  font-size: 16px;
+  line-height: 22px;
+  color: #858585;
+}
+
+.reg-password {
+  margin-bottom: 10px; /* Форма пароля с подсказкой "Минимум 8 символов", для формы регистрации */
+}
+
+.button--unborder {
+  border: none;
+  margin-top: 10px;
+}
+
